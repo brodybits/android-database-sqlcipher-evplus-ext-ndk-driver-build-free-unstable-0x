@@ -2,3 +2,6 @@
 	path = android-database-sqlcipher/src/main/external/sqlcipher
 	url = https://github.com/sqlcipher/sqlcipher.git
 	ignore = untracked
+[submodule "android-database-sqlcipher/src/main/external/android-sqlite-evplus-ext-native-driver-free"]
+	path = android-database-sqlcipher/src/main/external/android-sqlite-evplus-ext-native-driver-free
+	url = https://github.com/storesafe/android-sqlite-evplus-ext-native-driver-free

@@ -72,6 +72,8 @@ ext {
     ndkBuildType="NDK_DEBUG=0"
   }
   sqlcipherCFlags = "-DSQLITE_HAS_CODEC " +
+    "-DOMIT_BASE64 " +
+    "-DOMIT_REGEXP " +
     "-DSQLITE_SOUNDEX " +
     "-DHAVE_USLEEP=1 " +
     "-DSQLITE_MAX_VARIABLE_NUMBER=99999 " +
