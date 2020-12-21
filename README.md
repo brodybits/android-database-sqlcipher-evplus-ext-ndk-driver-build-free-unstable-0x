@@ -4,7 +4,7 @@ LICENSING NOTE: INCLUDES <https://github.com/storesafe/android-sqlite-evplus-ext
 
 based on [`github:sqlcipher/android-database-sqlcipher`](https://github.com/sqlcipher/android-database-sqlcipher), with `android.database.sqlite` C++ and Java classes removed
 
-with EVPlusNativeDriver JNI support built from the JNI/NDK source in: <https://github.com/storesafe/android-sqlite-evplus-ext-native-driver-free>
+with EVPlusNativeDriver JNI support built from the JNI/NDK source in: <https://github.com/storesafe/android-sqlite-evplus-ext-native-driver-free/tree/evplus-omit-base64-and-regexp-build-options>
 
 with additional enhancment(s) by @brodybits from [`github:brodybits/android-database-sqlcipher#v4.x-extra-durable-jar-build`](https://github.com/brodybits/android-database-sqlcipher/tree/v4.x-extra-durable-jar-build):
 
