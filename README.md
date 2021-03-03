@@ -1,15 +1,15 @@
-## extra-durable android-database-sqlcipher NDK core JAR build
+## android-database-sqlcipher-evplus-ext-native-driver-build-free
 
-(build from source)
+LICENSING NOTE: INCLUDES <https://github.com/storesafe/android-sqlite-evplus-ext-native-driver-free> as a submodule under GPL v3 or COMMERCIAL LICENSE OPTIONS
 
-based on [`github:sqlcipher/android-database-sqlcipher`](https://github.com/sqlcipher/android-database-sqlcipher), with `android.database.sqlite` C++ and Java classes removed, and additional enhancement(s) from [`github:brodybits/android-database-sqlcipher#v4.x-extra-durable-jar-build`](https://github.com/brodybits/android-database-sqlcipher/tree/v4.x-extra-durable-jar-build):
+based on [`github:brodybits/android-database-sqlcipher#v4.x-extra-durable-ndk-core-jar-build`](https://github.com/brodybits/android-database-sqlcipher/tree/v4.x-extra-durable-ndk-core-jar-build): [`github:sqlcipher/android-database-sqlcipher`](https://github.com/sqlcipher/android-database-sqlcipher) with `android.database.sqlite` C++ and Java classes removed and additional enhancement(s) from [`github:brodybits/android-database-sqlcipher#v4.x-extra-durable-jar-build`](https://github.com/brodybits/android-database-sqlcipher/tree/v4.x-extra-durable-jar-build):
 
-- able to build JAR with the NDK libs, as documented below
+- able to build JAR, as documented below
 - extra durable with `-DSQLITE_DEFAULT_SYNCHRONOUS=3` build setting in `build.gradle`
 
-Note that this version build branch does not externalize the SQLCipher or OpenSSL dependencies.
+including EVPlusNativeDriver JNI support built from the JNI/NDK source in: <https://github.com/storesafe/android-sqlite-evplus-ext-native-driver-free/tree/evplus-omit-base64-and-regexp-build-options>
 
-(This version build branch is only intended to be a baseline for more customized NDK JAR builds, not expected to produce a NDK JAR usable from JNI.)
+Note that this version build branch does not externalize the SQLCipher or OpenSSL dependencies.
 
 <!-- N/A - NOT SUPPORTED with this JAR build:
 ### Download Source and Binaries

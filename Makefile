@@ -3,10 +3,10 @@
 	publish-local-release publish-remote-snapshot public-remote-release check
 GRADLE = ./gradlew
 
-# for JAR build:
+# for JAR build with JNI NDK lib:
 JNI_LIB_BUILD_PATH = android-database-sqlcipher/build/intermediates/transforms/stripDebugSymbol/release/0/lib
 CLEAN_JAR_BUILD = rm -rf lib *.jar
-JNI_LIB_JAR_FILENAME = android-database-sqlcipher-core-ndk.jar
+JNI_LIB_JAR_FILENAME = android-database-sqlcipher-evplus-ext-native-driver.jar
 
 init:
 	git submodule update --init
