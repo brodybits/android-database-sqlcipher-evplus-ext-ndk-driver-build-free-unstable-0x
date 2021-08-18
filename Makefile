@@ -5,8 +5,8 @@ GRADLE = ./gradlew
 
 # for JAR build with JNI NDK lib:
 JNI_LIB_BUILD_PATH = android-database-sqlcipher/build/intermediates/transforms/stripDebugSymbol/release/0/lib
-CLEAN_JAR_BUILD = rm -rf lib *.jar
-JNI_LIB_JAR_FILENAME = android-database-sqlcipher-evplus-ext-native-driver.jar
+CLEAN_JAR_BUILD = rm -rf io lib *.jar
+JNI_LIB_JAR_FILENAME = android-database-sqlcipher-evplus-ext-ndk-driver.jar
 
 init:
 	git submodule update --init
@@ -40,7 +40,8 @@ build-release: check
 jar: init build-release
 	$(CLEAN_JAR_BUILD)
 	cp -r $(JNI_LIB_BUILD_PATH) .
-	jar cf $(JNI_LIB_JAR_FILENAME) lib
+	javac -d . android-database-sqlcipher/src/main/external/android-sqlite-evplus-ndk-driver-free/java/io/sqlc/*.java
+	jar cf $(JNI_LIB_JAR_FILENAME) io lib
 
 publish-local-snapshot:
 	@ $(collect-signing-info) \
