@@ -1,13 +1,13 @@
 ## android-database-sqlcipher-evplus-ext-native-driver-build-free
 
-LICENSING NOTE: INCLUDES <https://github.com/storesafe/android-sqlite-evplus-ext-native-driver-free> as a submodule under GPL v3 or COMMERCIAL LICENSE OPTIONS
+LICENSING NOTE: INCLUDES <https://github.com/storesafe/android-sqlite-evplus-ndk-driver-free> as a submodule under GPL v3 or COMMERCIAL LICENSE OPTIONS
 
 based on [`github:brodybits/android-database-sqlcipher#v4.x-extra-durable-ndk-core-jar-build`](https://github.com/brodybits/android-database-sqlcipher/tree/v4.x-extra-durable-ndk-core-jar-build): [`github:sqlcipher/android-database-sqlcipher`](https://github.com/sqlcipher/android-database-sqlcipher) with `android.database.sqlite` C++ and Java classes removed and additional enhancement(s) from [`github:brodybits/android-database-sqlcipher#v4.x-extra-durable-jar-build`](https://github.com/brodybits/android-database-sqlcipher/tree/v4.x-extra-durable-jar-build):
 
 - able to build JAR, as documented below
 - extra durable with `-DSQLITE_DEFAULT_SYNCHRONOUS=3` build setting in `build.gradle`
 
-including EVPlusNativeDriver JNI support built from the JNI/NDK source in: <https://github.com/storesafe/android-sqlite-evplus-ext-native-driver-free/tree/evplus-omit-base64-and-regexp-build-options>
+including EVPlusNativeDriver JNI support built from the JNI/NDK source in: <https://github.com/storesafe/android-sqlite-evplus-ndk-driver-free>
 
 Note that this version build branch does not externalize the SQLCipher or OpenSSL dependencies.
 

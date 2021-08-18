@@ -2,15 +2,15 @@
 	path = android-database-sqlcipher/src/main/external/sqlcipher
 	url = https://github.com/sqlcipher/sqlcipher.git
 	ignore = untracked
-[submodule "android-database-sqlcipher/src/main/external/android-sqlite-evplus-ext-native-driver-free"]
-	path = android-database-sqlcipher/src/main/external/android-sqlite-evplus-ext-native-driver-free
-	url = https://github.com/storesafe/android-sqlite-evplus-ext-native-driver-free
 [submodule "android-database-sqlcipher/src/main/external/sqlite3-regexp-cached"]
 	path = android-database-sqlcipher/src/main/external/sqlite3-regexp-cached
 	url = https://github.com/brodybits/sqlite3-regexp-cached
-[submodule "android-database-sqlcipher/src/main/external/libb64-encode"]
-	path = android-database-sqlcipher/src/main/external/libb64-encode
-	url = https://github.com/brodybits/libb64-encode
 [submodule "android-database-sqlcipher/src/main/external/sqlite3-base64"]
 	path = android-database-sqlcipher/src/main/external/sqlite3-base64
 	url = https://github.com/brodybits/sqlite3-base64
+[submodule "android-database-sqlcipher/src/main/external/android-sqlite-evplus-ndk-driver-free"]
+	path = android-database-sqlcipher/src/main/external/android-sqlite-evplus-ndk-driver-free
+	url = https://github.com/storesafe/android-sqlite-evplus-ndk-driver-free
+[submodule "android-database-sqlcipher/src/main/external/libb64-core"]
+	path = android-database-sqlcipher/src/main/external/libb64-core
+	url = https://github.com/brodybits/libb64-core
